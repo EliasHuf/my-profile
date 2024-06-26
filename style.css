@@ -1,0 +1,84 @@
+/* Base styles */
+body {
+  background-color: #bfbfde;
+  color: rgb(50, 50, 50);
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+h1 {
+  color: #3a414a;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+h2 {
+  color: #585757;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Container styles */
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+/* Card styles */
+.card-white {
+  background-color: #FFD966;
+  padding: 40px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+/* Image styles */
+.img-square {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width: 350px;
+}
+
+/* List styles */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(200, 200, 200);
+}
+
+.list-inline i:hover {
+  color: #DFA67B;
+}
+
+/* Introduction paragraph styles */
+#introduction p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
